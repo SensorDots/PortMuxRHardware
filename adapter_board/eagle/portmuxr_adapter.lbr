@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -191,7 +191,6 @@
 <wire x1="10.16" y1="12.7" x2="10.795" y2="13.335" width="0.1524" layer="21"/>
 <wire x1="10.795" y1="13.335" x2="14.605" y2="13.335" width="0.1524" layer="21"/>
 <wire x1="15.24" y1="11.43" x2="15.24" y2="12.7" width="0.1524" layer="21"/>
-<wire x1="15.621" y1="1.27" x2="15.621" y2="2.54" width="0.2032" layer="21"/>
 <pad name="PR_A" x="13.97" y="1.905" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="PR_E" x="11.43" y="1.905" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="PR_B" x="13.97" y="4.445" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -212,7 +211,6 @@
 <rectangle x1="13.716" y1="11.811" x2="14.224" y2="12.319" layer="51" rot="R180"/>
 <rectangle x1="13.716" y1="9.271" x2="14.224" y2="9.779" layer="51" rot="R180"/>
 <rectangle x1="11.176" y1="9.271" x2="11.684" y2="9.779" layer="51" rot="R180"/>
-<wire x1="15.621" y1="1.27" x2="15.621" y2="2.54" width="0.2032" layer="22"/>
 <rectangle x1="13.716" y1="32.766" x2="14.224" y2="33.274" layer="51" rot="R180"/>
 <rectangle x1="11.176" y1="32.766" x2="11.684" y2="33.274" layer="51" rot="R180"/>
 <rectangle x1="11.176" y1="35.306" x2="11.684" y2="35.814" layer="51" rot="R180"/>
@@ -334,7 +332,6 @@
 <wire x1="10.16" y1="43.815" x2="10.795" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="10.795" y1="44.45" x2="14.605" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="15.24" y1="42.545" x2="15.24" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="15.621" y1="32.385" x2="15.621" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P1_A" x="13.97" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P1_E" x="11.43" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P1_B" x="13.97" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -345,7 +342,6 @@
 <pad name="P1_H" x="11.43" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P1_VCC" x="13.97" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P1_GND" x="11.43" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="15.621" y1="32.385" x2="15.621" y2="33.655" width="0.2032" layer="22"/>
 <text x="8.255" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="8.255" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="8.255" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -387,7 +383,6 @@
 <wire x1="24.13" y1="43.815" x2="24.765" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="24.765" y1="44.45" x2="28.575" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="29.21" y1="42.545" x2="29.21" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="29.591" y1="32.385" x2="29.591" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P2_A" x="27.94" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P2_E" x="25.4" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P2_B" x="27.94" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -398,7 +393,6 @@
 <pad name="P2_H" x="25.4" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P2_VCC" x="27.94" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P2_GND" x="25.4" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="29.591" y1="32.385" x2="29.591" y2="33.655" width="0.2032" layer="22"/>
 <text x="22.225" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="22.225" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="22.225" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -441,7 +435,6 @@
 <wire x1="38.1" y1="43.815" x2="38.735" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="38.735" y1="44.45" x2="42.545" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="43.18" y1="42.545" x2="43.18" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="43.561" y1="32.385" x2="43.561" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P3_A" x="41.91" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P3_E" x="39.37" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P3_B" x="41.91" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -452,7 +445,6 @@
 <pad name="P3_H" x="39.37" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P3_VCC" x="41.91" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P3_GND" x="39.37" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="43.561" y1="32.385" x2="43.561" y2="33.655" width="0.2032" layer="22"/>
 <text x="36.195" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="36.195" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="36.195" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -495,7 +487,6 @@
 <wire x1="52.07" y1="43.815" x2="52.705" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="52.705" y1="44.45" x2="56.515" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="57.15" y1="42.545" x2="57.15" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="57.531" y1="32.385" x2="57.531" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P4_A" x="55.88" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P4_E" x="53.34" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P4_B" x="55.88" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -506,7 +497,6 @@
 <pad name="P4_H" x="53.34" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P4_VCC" x="55.88" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P4_GND" x="53.34" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="57.531" y1="32.385" x2="57.531" y2="33.655" width="0.2032" layer="22"/>
 <text x="50.165" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="50.165" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="50.165" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -549,7 +539,6 @@
 <wire x1="66.04" y1="43.815" x2="66.675" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="66.675" y1="44.45" x2="70.485" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="71.12" y1="42.545" x2="71.12" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="71.501" y1="32.385" x2="71.501" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P5_A" x="69.85" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P5_E" x="67.31" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P5_B" x="69.85" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -560,7 +549,6 @@
 <pad name="P5_H" x="67.31" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P5_VCC" x="69.85" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P5_GND" x="67.31" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="71.501" y1="32.385" x2="71.501" y2="33.655" width="0.2032" layer="22"/>
 <text x="64.135" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="64.135" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="64.135" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -603,7 +591,6 @@
 <wire x1="80.01" y1="43.815" x2="80.645" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="80.645" y1="44.45" x2="84.455" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="85.09" y1="42.545" x2="85.09" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="85.471" y1="32.385" x2="85.471" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P6_A" x="83.82" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P6_E" x="81.28" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P6_B" x="83.82" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -614,7 +601,6 @@
 <pad name="P6_H" x="81.28" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P6_VCC" x="83.82" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P6_GND" x="81.28" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="85.471" y1="32.385" x2="85.471" y2="33.655" width="0.2032" layer="22"/>
 <text x="78.105" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="78.105" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="78.105" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -657,7 +643,6 @@
 <wire x1="93.98" y1="43.815" x2="94.615" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="94.615" y1="44.45" x2="98.425" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="99.06" y1="42.545" x2="99.06" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="99.441" y1="32.385" x2="99.441" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P7_A" x="97.79" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P7_E" x="95.25" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P7_B" x="97.79" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -668,7 +653,6 @@
 <pad name="P7_H" x="95.25" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P7_VCC" x="97.79" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P7_GND" x="95.25" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="99.441" y1="32.385" x2="99.441" y2="33.655" width="0.2032" layer="22"/>
 <text x="92.075" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="92.075" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="92.075" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -711,7 +695,6 @@
 <wire x1="107.95" y1="43.815" x2="108.585" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="108.585" y1="44.45" x2="112.395" y2="44.45" width="0.1524" layer="21"/>
 <wire x1="113.03" y1="42.545" x2="113.03" y2="43.815" width="0.1524" layer="21"/>
-<wire x1="113.411" y1="32.385" x2="113.411" y2="33.655" width="0.2032" layer="21"/>
 <pad name="P8_A" x="111.76" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P8_E" x="109.22" y="33.02" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P8_B" x="111.76" y="35.56" drill="1.016" diameter="1.8796" rot="R90"/>
@@ -722,7 +705,6 @@
 <pad name="P8_H" x="109.22" y="40.64" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P8_VCC" x="111.76" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
 <pad name="P8_GND" x="109.22" y="43.18" drill="1.016" diameter="1.8796" rot="R90"/>
-<wire x1="113.411" y1="32.385" x2="113.411" y2="33.655" width="0.2032" layer="22"/>
 <text x="106.045" y="32.385" size="1.016" layer="21" font="vector">E        A</text>
 <text x="106.045" y="34.925" size="1.016" layer="21" font="vector">F        B</text>
 <text x="106.045" y="37.465" size="1.016" layer="21" font="vector">G        C</text>
@@ -796,6 +778,39 @@
 <wire x1="82.55" y1="27.94" x2="82.55" y2="31.75" width="0.127" layer="21"/>
 <wire x1="96.52" y1="27.94" x2="96.52" y2="31.75" width="0.127" layer="21"/>
 <wire x1="110.49" y1="27.94" x2="110.49" y2="31.75" width="0.127" layer="21"/>
+<wire x1="40.005" y1="3.175" x2="39.37" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="39.37" y1="2.54" x2="38.1" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="38.1" y1="2.54" x2="37.465" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="37.465" y1="4.445" x2="38.1" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="38.1" y1="5.08" x2="39.37" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="39.37" y1="5.08" x2="40.005" y2="4.445" width="0.2032" layer="21"/>
+<wire x1="44.45" y1="2.54" x2="43.18" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="43.18" y1="2.54" x2="42.545" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="42.545" y1="4.445" x2="43.18" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="42.545" y1="3.175" x2="41.91" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="41.91" y1="2.54" x2="40.64" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="40.64" y1="2.54" x2="40.005" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="40.005" y1="4.445" x2="40.64" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="40.64" y1="5.08" x2="41.91" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="41.91" y1="5.08" x2="42.545" y2="4.445" width="0.2032" layer="21"/>
+<wire x1="45.085" y1="3.175" x2="45.085" y2="4.445" width="0.2032" layer="21"/>
+<wire x1="44.45" y1="2.54" x2="45.085" y2="3.175" width="0.2032" layer="21"/>
+<wire x1="45.085" y1="4.445" x2="44.45" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="43.18" y1="5.08" x2="44.45" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="37.465" y1="3.175" x2="37.465" y2="4.445" width="0.2032" layer="21"/>
+<pad name="SDA" x="43.815" y="3.81" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SCL" x="41.275" y="3.81" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="I2C_GND" x="38.735" y="3.81" drill="1.016" diameter="1.8796" rot="R270"/>
+<rectangle x1="38.481" y1="3.556" x2="38.989" y2="4.064" layer="51" rot="R180"/>
+<rectangle x1="41.021" y1="3.556" x2="41.529" y2="4.064" layer="51" rot="R180"/>
+<rectangle x1="43.561" y1="3.556" x2="44.069" y2="4.064" layer="51" rot="R180"/>
+<text x="39.37" y="6.0325" size="1.016" layer="25" font="vector" rot="R90">GND</text>
+<text x="41.91" y="6.0325" size="1.016" layer="25" font="vector" rot="R90">SCL</text>
+<text x="44.45" y="6.0325" size="1.016" layer="25" font="vector" rot="R90">SDA</text>
+<wire x1="0" y1="0" x2="0" y2="50.866875" width="0.127" layer="21"/>
+<wire x1="0" y1="50.866875" x2="124.44" y2="50.866875" width="0.127" layer="21"/>
+<wire x1="124.44" y1="50.866875" x2="124.44" y2="0" width="0.127" layer="21"/>
+<wire x1="124.44" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -938,6 +953,13 @@
 <wire x1="-60.96" y1="22.86" x2="-78.74" y2="22.86" width="0.254" layer="94"/>
 <pin name="5V" x="-83.82" y="20.32" length="middle"/>
 <pin name="GND" x="-83.82" y="12.7" length="middle"/>
+<wire x1="-78.74" y1="2.54" x2="-78.74" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-78.74" y1="-10.16" x2="-60.96" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-10.16" x2="-60.96" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="2.54" x2="-78.74" y2="2.54" width="0.254" layer="94"/>
+<pin name="SDA" x="-83.82" y="0" length="middle"/>
+<pin name="I2C_GND" x="-83.82" y="-7.62" length="middle"/>
+<pin name="SCL" x="-83.82" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -950,6 +972,7 @@
 <connects>
 <connect gate="G$1" pin="5V" pad="5V"/>
 <connect gate="G$1" pin="GND" pad="GND1 GND2"/>
+<connect gate="G$1" pin="I2C_GND" pad="I2C_GND"/>
 <connect gate="G$1" pin="P1_A" pad="P1_A"/>
 <connect gate="G$1" pin="P1_B" pad="P1_B"/>
 <connect gate="G$1" pin="P1_C" pad="P1_C"/>
@@ -1042,6 +1065,8 @@
 <connect gate="G$1" pin="PR_VCC" pad="PR_VCC"/>
 <connect gate="G$1" pin="P_JMP_AFTER" pad="P_JMP_AFTER"/>
 <connect gate="G$1" pin="P_JMP_BEFORE" pad="P_JMP_BEFORE"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
 </connects>
 <technologies>
 <technology name=""/>
